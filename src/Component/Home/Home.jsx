@@ -10,6 +10,7 @@ const Home = () => {
                 <Link to="">Home</Link>
                 <Link to="/about">About</Link>
                 <Link to="/Header">Header</Link>
+                <Link to="/Users">Users</Link>
                 
             </ul>
             <Outlet></Outlet>
