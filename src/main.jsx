@@ -6,6 +6,7 @@ import {
   RouterProvider,
 } from "react-router-dom";
 import About from './Component/About/About';
+import ErrorSms from './Component/ErrorSms/ErrorSms';
 import Header from './Component/Header/Header';
 import Home from './Component/Home/Home';
 import PostDetails from './Component/postDetails/PostDetails';
@@ -17,6 +18,7 @@ const router = createBrowserRouter([
   {
     path: "/",
     element: <Home></Home>,
+    errorElement:<ErrorSms></ErrorSms>,
     children: [
       {
         path: "home",
